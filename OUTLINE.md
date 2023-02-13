@@ -1,4 +1,4 @@
-Project outline: 2 Player snake web game
+# Project outline: 2 Player snake web game
 
 GAME SPECS:
 -Nokia snake game with 2 players
