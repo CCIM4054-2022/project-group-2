@@ -17,3 +17,7 @@
 - In progress games will be able to be spectated over the network by multiple users, with chatroom functionality.
 - Games can be toggled as privated or spectatable as part of the match parameters.
 - The website will feature a recent matches scoreboard, listing the stats of recently ended matches, like time, player lengths, and winner.
+
+###### FRONTEND/BACKEND:
+- React
+- Flask
