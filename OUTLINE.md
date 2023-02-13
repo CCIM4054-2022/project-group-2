@@ -9,6 +9,7 @@
 
 ###### GAME FUNCTIONALITY:
 - Directional inputs are made through the keyboard
+- Players can only directly compete on the same computer, no online play
 - Game parameters can be be set before the match, including, but not limited to board size and looping, where the snakes will appear on the opposite side of the board if they pass through a wall
 - The game will have sound effects
 
