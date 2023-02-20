@@ -21,3 +21,7 @@
 ###### FRONTEND/BACKEND:
 - React
 - Flask
+
+##### USE CASE DIAGRAM:
+
+![image](https://user-images.githubusercontent.com/125234889/219997956-189be98c-fc6d-48c6-9cc0-cdceab94f878.jpeg)
