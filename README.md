@@ -3,9 +3,9 @@
 ###### GAME SPECS:
 - Nokia snake game with 2 players
 - 2 players compete on the same board
-- players eat food spawned on a random location on the board to increase their length, which acts as their health
-- players lose length when their own "food timer" runs out and when they run in to solid obstacles, such as a players tail or a boundary wall
-- a player loses when their length reaches 0, and the other player is declared winner
+- Players eat food spawned on a random location on the board to increase their length, which acts as their health
+- Players lose length when their own "food timer" runs out and when they run in to solid obstacles, such as a players tail or a boundary wall
+- A player loses when their length reaches 0, and the other player is declared winner
 
 ###### GAME FUNCTIONALITY:
 - Directional inputs are made through the keyboard
@@ -22,6 +22,5 @@
 - React
 - Flask
 
-##### USE CASE DIAGRAM:
-
+###### USE CASE DIAGRAM:
 ![image](https://user-images.githubusercontent.com/125234889/219997956-189be98c-fc6d-48c6-9cc0-cdceab94f878.jpeg)
