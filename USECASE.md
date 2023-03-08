@@ -17,7 +17,7 @@ _Use case description:_ User can open a game room and set the parameters:
 
 _Precondition/s:_ The website must be running on a computer (as WASD and Arrow Keys are required)
 
-_Use case association/s:_ Spectate game, view scoreboard
+_Use case association/s:_ Spectate game, view highscore board
 
 _Outcome:_ A game room is created once submitted and the users can begin the game
 
@@ -35,3 +35,30 @@ _Use case name:_ Spectate game
 _Actor/s:_ User
 
 _Use case description:_ The user can select any public occuring matches to spectate as well as participate in a chatroom with other spectators via a chatroom function
+
+_Precondition/s:_ There must be active public games in the website for the spectate feature to work
+
+_Use case association/s:_ Open game
+- Associated with use case "open game" as only public rooms are available for spectating
+
+_Outcome:_ Upon selecting an active game, the user will be brought to the match to spectate in real time (with latency to be accounted for)
+
+_Comments:_
+- Users won't be able to spectate private games
+- The chatroom is visible to both spectators and the players (with latency accounted for)
+
+- - - -
+
+_Use case name:_ View highscore board
+
+_Actor/s:_ User
+
+_Use case description:_
+
+_Precondition/s:_ Multiple public games must have been completed and stored in the database to be viewed
+
+_Use case association/s:_ Open game
+
+_Outcome:_
+
+_Comments:_
