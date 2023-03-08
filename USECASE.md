@@ -26,7 +26,7 @@ _Comments:_
 - Board dimensions have a set minimum and maximum
 - Two players will play on local multiplayer (on the same computer)
 - Private games will not have the game data (score, time, winner/loser) stored in the database
-- Public games will have their data stored in the database IF new records are made (high scores, fastest game)
+- Public games will have their data stored in the database IF new records are made (high scores, longest game)
 
 - - - -
 
@@ -53,12 +53,15 @@ _Use case name:_ View highscore board
 
 _Actor/s:_ User
 
-_Use case description:_
+_Use case description:_ A list of scores and times from previously completed public games are displayed in order of top scores and times
 
 _Precondition/s:_ Multiple public games must have been completed and stored in the database to be viewed
 
 _Use case association/s:_ Open game
+- Associated with the use case "open game" as it requires a database of completed matches to make a list of highscores
 
-_Outcome:_
+_Outcome:_ The user should be able to look at an organized list of scores acquired from completed games
 
-_Comments:_
+_Comments:_ Two lists will be available for viewing:
+1. High score board of longest length achieved in a game
+2. Longest game time to beat the other player
