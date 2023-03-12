@@ -65,3 +65,4 @@ _Outcome:_ The user should be able to look at an organized list of scores acquir
 _Comments:_ Two lists will be available for viewing:
 1. High score board of longest length achieved in a game
 2. Longest game time to beat the other player
+3. Only public game data will be shown, private game data will not be saved to the database, hence not shown on the scoreboard
